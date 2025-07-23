@@ -93,6 +93,14 @@ add_one(add_one(add_one(add_one(add_one(add_one(1))))))
 
 # EXPRESSIONS PLAYGROUND BEGINS
 
+def division(num1, num2):
+  if num2 == 0:
+    return "ERROR: CANNOT DIVIDE BY 0"
+  else:
+    return num1/num2
+
+def reciprocal(num):
+  return division(1,num)
 
 
 # EXPRESSIONS PLAYGROUND ENDS
